@@ -2362,7 +2362,11 @@ input, select, textarea {
 		}
 
 /* Table */
+#skillsAndCourses{
+display:grid;
+grid-template-columns: 1fr 1fr;
 
+}
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
