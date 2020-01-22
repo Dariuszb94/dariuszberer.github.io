@@ -164,6 +164,7 @@ input, select, textarea {
 	h4 {
 		font-size: 1.1em;
 		line-height: 1.5em;
+		text-align:center;
 	}
 
 	h5 {
@@ -2318,6 +2319,10 @@ input, select, textarea {
 
 		}
 
+
+		 		.transform:hover{
+  transform: scale(1.1);
+	}
 /* Table */
 #skillsAndCourses{
 display:grid;
@@ -2590,6 +2595,7 @@ grid-template-columns: 1fr 1fr;
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
+
 		}
 
 		#header h1 {
