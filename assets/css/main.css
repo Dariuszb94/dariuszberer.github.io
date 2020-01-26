@@ -79,23 +79,13 @@ input, select, textarea {
 
 }
 
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
 
 body
 {
   margin: 0;
   padding: 0;
   
-  /* make it look decent enough */
+
   background: white;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
@@ -104,7 +94,7 @@ body
 #menuToggle
 {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 30px;
   left: 40px;
   
@@ -139,15 +129,13 @@ body
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; 
+  z-index: 2; 
   
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
+
 #menuToggle span
 {
   display: block;
@@ -178,10 +166,7 @@ body
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+
 #menuToggle input:checked ~ span
 {
   opacity: 1;
@@ -189,38 +174,31 @@ body
   background: #232323;
 }
 
-/*
- * But let's hide the middle one.
- */
+
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
+
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
+
 #menu
 {
   position: absolute;
   width: auto;
   margin: -100px 0 0 -50px;
   padding: 20px;
-  padding-top: 100px;
+  padding-top: 90px;
   background: white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
+
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -230,14 +208,12 @@ body
 
 #menu li
 {
-  padding: 10px 0;
+  padding: 4px 0;
   font-size: 14px;
 }
 
 
-/*
- * And let's slide it in from the left
- */
+
 #menuToggle input:checked ~ ul
 {
   transform: none;
@@ -2266,6 +2242,7 @@ body
 
 		.image.avatar {
 			border-radius: 100%;
+			cursor: default;
 		}
 
 			.image.avatar:before {
@@ -3034,7 +3011,7 @@ grid-template-columns: 1fr 1fr;
 		/* Footer */
 
 			#footer {
-				padding: 2.25em 1.5em;
+				padding: 1.5em 1.5em;
 			}
 
 		/* Main */
