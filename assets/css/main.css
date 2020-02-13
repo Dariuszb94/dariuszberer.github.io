@@ -527,6 +527,7 @@ body
 
 		.row > .col-6 {
 			width: 50%;
+			margin-bottom: 2.5vw;
 		}
 
 		.row > .off-6 {
@@ -2232,7 +2233,7 @@ body
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 1vw 0;
 			width: 100%;
 		}
 
