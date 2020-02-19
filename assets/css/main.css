@@ -214,6 +214,26 @@ body
 
 
 
+.codeButton{
+
+	position: relative;
+	width:50%;
+
+
+}
+.demoButton{
+
+	position: relative;
+	width:50%;
+	
+}
+.demoButton:hover{
+font-weight: bold;
+}
+.codeButton:hover{
+	font-weight: bold;
+	}
+
 #menuToggle input:checked ~ ul
 {
   transform: none;
@@ -2233,7 +2253,7 @@ body
 
 		.image.fit {
 			display: block;
-			margin: 0 0 1vw 0;
+			margin: 0 0 0 0;
 			width: 100%;
 		}
 
@@ -2471,9 +2491,7 @@ body
 		}
 
 
-		 		.transform:hover{
-  transform: scale(1.1);
-	}
+	
 /* Table */
 #skillsAndCourses{
 display:grid;
