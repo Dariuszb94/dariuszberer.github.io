@@ -211,7 +211,10 @@ body
 }
 
 
-
+.project-tech{
+	color: #787878;
+	font-weight: bold;
+}
 .codeButton{
 
 	position: relative;
@@ -2493,11 +2496,43 @@ font-weight: bold;
 
 	
 /* Table */
-#skillsAndCourses{
-display:grid;
-grid-template-columns: 1fr 1fr;
+.backend-main{
+
+padding:5px;
 
 }
+.backend-main span h4{
+	text-align: left;
+		}
+		.frontend-tools span h4{
+			text-align: left;
+		}
+		.frontend-tools{
+			padding:5px;
+		}
+.frontend-img{
+	width: 16.6%;
+	height: 100%;
+
+}
+.frontend-skills{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.tools{
+
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+}
+.frontend{
+
+padding:5px;
+}
+.frontend span h4{
+text-align: left;
+	}
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
