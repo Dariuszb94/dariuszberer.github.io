@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+ @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
 
@@ -104,7 +104,7 @@ body
 {
   text-decoration: none;
   color: black;
-  
+  font-weight: bold;
   transition: color 0.3s ease;
 }
 
@@ -131,7 +131,9 @@ body
   
   -webkit-touch-callout: none;
 }
-
+.list-element{
+	text-decoration: none;
+}
 
 
 .menuToggle span
@@ -196,7 +198,7 @@ body
   background: white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-
+opacity: 0.3;
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -277,7 +279,7 @@ font-weight: bold;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+	
 		color: #49bf9d;
 		text-decoration: none;
 	}
@@ -1689,6 +1691,7 @@ font-weight: bold;
 
 			.row {
 				display: flex;
+				flex-direction: column;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1771,7 +1774,7 @@ font-weight: bold;
 				}
 
 				.row > .col-6-xsmall {
-					width: 50%;
+					width: 100%;
 				}
 
 				.row > .off-6-xsmall {
@@ -1927,7 +1930,7 @@ font-weight: bold;
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
 						}
-
+					
 		}
 
 /* Section/Article */
@@ -1962,9 +1965,7 @@ font-weight: bold;
 		line-height: 1.5em;
 	}
 
-	header.major h2 {
-		font-size: 2em;
-	}
+	
 
 /* Form */
 
@@ -3038,9 +3039,7 @@ text-align: left;
 				text-align: center;
 			}
 
-			header.major h2 {
-				font-size: 1.35em;
-			}
+		
 
 		/* List */
 
@@ -3104,3 +3103,9 @@ text-align: left;
 				line-height: 2.25em;
 				margin-left: 0;
 				padding-left: 0;}}
+
+				@media screen and (max-width: 480px) {
+					.col-6{
+						max-width: 100% !important;
+					}
+				}
