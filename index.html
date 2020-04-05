@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/8d55cbf180.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="content">
+            <div class="intro" id ="home">
+                <div class="inner">
+                    <nav>
+                        <div id="menuToggle" class="menuToggle"> 
+                            <input type="checkbox" />
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <ul id="menu" class="menu">
+                                <li><a href="#home" class="list-element">Home</a></li>
+                                <li><a href="#aboutMe" class="list-element"><nobr>About me</nobr></a></li>
+                                <li><a href="#one" class="list-element">Skills</a></li>
+                                <li><a href="#two" class="list-element">Projects</a></li>
+                                <li><a href="#three" class="list-element">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <a href="#" class="image avatar"><img src="images/avatar.jpg" class="image avatar" alt="image avatar" /></a>
+                    <h1 class="header-name"><strong>Dariusz Berer</strong></h1><br />
+                    <h2 class="header-job">Frontend Developer</h2><br />
+                </div>
+                <footer id="footer">
+                    <div class="inner">
+                        <ul class="icons">
+                            <li>
+                                <a href="https://www.linkedin.com/in/dariusz-berer-616b5419b/" class="icon">
+                                    <i class="fab fa-linkedin">
+                                    </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Dariuszb94" class="icon">
+                                    <i class="fab fa-github">         
+                                    </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+48535262562" class="contact-link-telephone">
+                                    <i class="fas fa-mobile-alt icon">
+                                    </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:dariusz.berer@gmail.com" class="contact-link-mail icon">
+                                    <i class="fas fa-envelope">
+                                    </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>    
+            </div>
+            <div class="main">
+                <section id="aboutMe" class="aboutMe">
+                    <header>
+                        <h2>About me</h2>
+                        <p class="animate-skills">
+                            Hi! I'm Dariusz and building pages is my hobby. I decided to change my career direction and follow my hobby - from being an automation engineer to being a web developer.
+                        </p>
+                        <p class="animate-skills">
+                            I was polishing my web developing skills since last year, starting from HTML, CSS, pure JavaScript, through frameworks React, Angular and Vue. I hope you find my projects interesting!
+                        </p>
+                    </header>
+                </section>
+                <section class="one" id="one">
+                    <div class="skillsAndCourses">
+                        <div class=skills>
+                            <header>
+                                <h2>Skills</h2>
+                            </header>
+                            <div class="frontend">
+                                <header><h3>Frontend:</h3></header>
+                                 <div class="frontend-skills skill-element animate-skills">
+                                    <img src="images/skills/html.png" alt="html" class="frontend-img">
+                                    <img src="images/skills/css.png" alt="css" class="frontend-img">
+                                    <img src="images/skills/js.png" alt="js" class="frontend-img">
+                                    <img src="images/skills/react.png" alt="react" class="frontend-img">
+                                    <img src="images/skills/angular.png" alt="angular" class="frontend-img">
+                                    <img src="images/skills/jquery.png" alt="jquery" class="frontend-img">
+                                    <img src="images/skills/vue.png" alt="vue" class="frontend-img">
+                                </div>
+                            </div>
+                            <div class="backend-main">
+                                <header><h3>Backend:</h3></header>
+                                <div class="backend animate-skills">
+                                    <img src="images/skills/jsp.png" alt="jsp" class="frontend-img">
+                                </div>
+                            </div>
+                            <div class="frontend-tools">
+                                <header><h3>Tools:</h3></header>
+                                <div class="tools animate-skills">
+                                    <img src="images/skills/git.png" alt="git" class="frontend-img">
+                                    <img src="images/skills/node.png" alt="node js" class="frontend-img">
+                                    <img src="images/skills/npm.png" alt="npm" class="frontend-img">
+                                </div>
+                            </div>
+                        </div>           
+                    </div>
+                </section> 
+                <section class="two" id="two">
+                    <h2>Recent projects</h2>
+                    <div class="works">
+                        <article class="work">
+                            <a href="https://dariuszb94.github.io/Breakout/"><img src="images/links/Breakout.jpg" class="link-image" alt="Breakout game" /></a>
+                            <div class="linkButtons"><button class="codeButton btn btn-primary" onclick="window.location.href = 'https://github.com/Dariuszb94/Breakout';">Code</button><button class="demoButton btn btn-primary" onclick="window.location.href = 'https://dariuszb94.github.io/Breakout/';">Demo</button></div>
+                            <h4><strong>Breakout game</strong></h4>
+                            <p>Breakout game. Destroy bricks with ball. You can move paddle with arrows or mouse.<br />
+                            <span class="project-tech">Tech stack: HTML | CSS | Javascript | Canvas</span></p>    
+                        </article>
+                        <article class="work">
+                            <a href="https://dariuszb94.github.io/Tic_tac_toe/" ><img src="images/links/Tic_tac_toe.jpg" alt="Tic tac toe game" class="link-image"/></a>
+                            <div class="linkButtons"><button class="codeButton btn btn-primary" onclick="window.location.href = 'https://github.com/Dariuszb94/Tic_tac_toe';">Code</button><button class="demoButton btn btn-primary" onclick="window.location.href = 'https://dariuszb94.github.io/Tic_tac_toe/';">Demo</button></div>
+                            <h4><strong>React Tic-tac-toe</strong></h4>
+                            <p>Tic-tac-toe game where you can rewind your moves. <br />
+                            <span class="project-tech">Tech stack: HTML | CSS | React</span></p>
+                        </article>
+                        <article class="work">
+                            <a href="https://dariuszb94.github.io/MovieApp/" ><img src="images/links/Movie_DB.jpg" alt="Movie DataBase"  class="link-image"/></a>
+                            <div class="linkButtons"><button class="codeButton btn btn-primary" onclick="window.location.href = 'https://github.com/Dariuszb94/MovieApp';">Code</button><button class="demoButton btn btn-primary" onclick="window.location.href = 'https://dariuszb94.github.io/MovieApp/';">Demo</button></div>
+                            <h4><strong>React The Movie Database</strong></h4>
+                            <p>Search engine for movies. Type movie title in searchbar and click "search", than you can go to one of the results. <br />
+                            <span class="project-tech">	Tech stack: HTML | CSS | React | Node.js | Axios | API</span></p>
+                        </article>
+                        <article class="work">
+                            <a href="https://dariuszb94.github.io/React_snake_game/"><img src="images/links/Snake.jpg" alt="Snake game"  class="link-image"/></a>
+                            <div class="linkButtons"><button class="codeButton btn btn-primary" onclick="window.location.href = 'https://github.com/Dariuszb94/React_snake_game';">Code</button><button class="demoButton btn btn-primary" onclick="window.location.href = 'https://dariuszb94.github.io/React_snake_game/';">Demo</button></div>
+                            <h4><strong>React Snake Game</strong></h4>
+                            <p>Snake can be steered by using arrow. Game will be stopped if snake bite itself.<br />
+                            <span class="project-tech">Tech stack: HTML | CSS | React | Node.js</span></p>
+                         </article>
+                         <article class="work">
+                            <a href="https://dariuszb94.github.io/Sound_Generator/"><img src="images/links/Sound_generator.jpg" alt="React sound generator" class="link-image" /></a>
+                            <div class="linkButtons"><button class="codeButton btn btn-primary" onclick="window.location.href = 'https://github.com/Dariuszb94/Sound_Generator';">Code</button><button class="demoButton btn btn-primary" onclick="window.location.href = 'https://dariuszb94.github.io/Sound_Generator/';">Demo</button></div>
+                            <h4><strong>React Sound Generator</strong></h4>
+                            <p>Clicking on pads or clicking on keyboard can generate sounds.<br />
+                            <span class="project-tech">	Tech stack: HTML | CSS | React</span></p>
+                        </article>
+                        <article class="work">
+                            <a href="https://dariuszb94.github.io/Weather-App/"><img src="images/links/Weather.jpg" alt="React Weather App"  class="link-image"/></a>
+                            <div class="linkButtons"><button class="codeButton btn btn-primary" onclick="window.location.href = 'https://github.com/Dariuszb94/Weather-App';">Code</button><button class="demoButton btn btn-primary" onclick="window.location.href = 'https://dariuszb94.github.io/Weather-App/';">Demo</button></div>
+                            <h4><strong>React Weather App</strong></h4>
+                            <p>Weather App lets you check current temperature, pressure, wind speed, sunset time, sunrise time in choosen city. <br />
+                            <span class="project-tech">Tech stack: HTML | CSS | React | Node.js | API</span></p>
+                        </article>
+                        <article class="work">
+                            <a href="https://dariuszb94.github.io/Traffic-racer/"><img src="images/links/Traffic.jpg" alt="Traffic racer" class="link-image" /></a>
+                            <div class="linkButtons"><button class="codeButton btn btn-primary" onclick="window.location.href = 'https://github.com/Dariuszb94/Traffic-racer';">Code</button><button class="demoButton btn btn-primary" onclick="window.location.href = 'https://dariuszb94.github.io/Traffic-racer/';">Demo</button></div>
+                            <h4><strong>JQuery Traffic Racer</strong></h4>
+                            <p>Avoid collision with other cars using arrow keys. You can also see your high score. <br />
+                            <span class="project-tech">Tech stack: HTML | CSS | jQuery | Bootstrap </span></p> 
+                        </article>
+                        <article class="work">
+                            <a href="https://dariuszb94.github.io/JSON_and_AJAX/"><img src="images/links/JSON_and_AJAX.jpg" alt="JSON and AJAX data fetch "  class="link-image"/></a>
+                            <div class="linkButtons"><button class="codeButton btn btn-primary" onclick="window.location.href = 'https://github.com/Dariuszb94/JSON_and_AJAX';">Code</button><button class="demoButton btn btn-primary" onclick="window.location.href = 'https://dariuszb94.github.io/JSON_and_AJAX/';">Demo</button></div>
+                            <h4><strong>JSON and AJAX data fetch</strong></h4>
+                            <p>Fetching data from external server with JSON and AJAX. Error handling included.<br />
+                            <span class="project-tech">	Tech stack: HTML | CSS | JavaScript | JSON | AJAX </span></p>
+                        </article>
+                        <article class="work">
+                        <a href="https://dariuszb94.github.io/Quote_Generator/"><img src="images/links/Quote_generator.jpg" alt="Quote generator" class="link-image"/></a>
+                            <div class="linkButtons"><button class="codeButton btn btn-primary" onclick="window.location.href = 'https://github.com/Dariuszb94/Quote_Generator';">Code</button><button class="demoButton btn btn-primary" onclick="window.location.href = 'https://dariuszb94.github.io/Quote_Generator/';">Demo</button></div>
+                            <h4><strong>Quote generator</strong></h4>
+                            <p>Random quotes are generated when click is done, also there is possibility to send quote by twitter.<br />
+                            <span class="project-tech">	Tech stack: HTML | CSS | jQuery | Bootstrap </span></p>
+                        </article>
+                    </div>
+                </section>
+                <section class="three" id="three">
+                    <h2>Get In Touch</h2>
+                    <div class="contact">
+                        <div class="contact-element contact-element-telephone">
+                            <div class="btn btn-primary">
+                                <i class="fas fa-mobile-alt"></i>
+                                <a href="tel:+48535262562" class="contact-link">
+                                    <nobr>535-262-562</nobr>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-element contact-element-mail">
+                            <div class="btn btn-primary">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:dariusz.berer@gmail.com" class="contact-link">
+                                    dariusz.berer@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>      
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+ 
