@@ -86,8 +86,11 @@
           });
   
           // Set the models initial scale
+            
           model.scale.set(5, 5, 5);
-  
+            if (window.innerWidth<1000) 
+                          model.scale.set(3,3, 3);
+            
           model.position.y = -6;
           if (window.innerWidth<1000) 
           model.position.x =4;
