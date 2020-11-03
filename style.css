@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
 html, p, a{
     font-family: 'B612', sans-serif;
-    text-decoration: none;
+    text-decoration: none; 
 }
 .main{
     display: grid;
